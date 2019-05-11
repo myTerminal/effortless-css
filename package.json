@@ -1,0 +1,19 @@
+{
+  "name": "effortless-css",
+  "version": "0.9.0",
+  "description": "A collection of frequently used {Less} CSS mixins",
+  "main": "less/all.less",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:myTerminal/effortless-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myTerminal/effortless-css/issues"
+  },
+  "homepage": "https://github.com/myTerminal/effortless-css#readme",
+  "keywords": [
+    "less"
+  ],
+  "author": "Mohammed Ismail Ansari <team.terminal@gmail.com>",
+  "license": "MIT"
+}
