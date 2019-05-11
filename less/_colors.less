@@ -1,3 +1,23 @@
+.background-gradient-two-color-top (@topColor: #fff, @bottomColor: #000, @fallbackColor: @topColor) {
+    background-color: @fallbackColor;
+    background-image: -ms-linear-gradient(top, @topColor 0%, @bottomColor 100%);
+    background-image: -moz-linear-gradient(top, @topColor 0%, @bottomColor 100%);
+    background-image: -o-linear-gradient(top, @topColor 0%, @bottomColor 100%);
+    background-image: -webkit-linear-gradient(top, @topColor 0%, @bottomColor 100%);
+    background-image: linear-gradient(top, @topColor 0%, @bottomColor 100%);
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr="@topColor~", endColorstr="@bottomColor~")";
+}
+
+.background-gradient-two-color-left (@leftColor: #fff, @rightColor: #000, @fallbackColor: @leftColor) {
+    background-color: @fallbackColor;
+    background-image: -ms-linear-gradient(left, @leftColor 0%, @rightColor 100%);
+    background-image: -moz-linear-gradient(left, @leftColor 0%, @rightColor 100%);
+    background-image: -o-linear-gradient(left, @leftColor 0%, @rightColor 100%);
+    background-image: -webkit-linear-gradient(left, @leftColor 0%, @rightColor 100%);
+    background-image: linear-gradient(left, @leftColor 0%, @rightColor 100%);
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr="@leftColor~", endColorstr="@rightColor~")";
+}
+
 .opacity (@opacity: 1) {
     opacity: @opacity;
     filter:alpha(opacity=@opacity);

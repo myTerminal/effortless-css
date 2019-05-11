@@ -1,0 +1,24 @@
+.transform (@transform: rotate(0deg)) {
+    -webkit-transform: @transform;
+    -moz-transform: @transform;
+    -ms-transform: @transform;
+    transform: @transform;
+}
+
+.transform-origin(@transformOrigin: 50% 50%) {
+    -webkit-transform-origin: @transformOrigin;
+    -moz-transform-origin: @transformOrigin;
+    -ms-transform-origin: @transformOrigin;
+    transform-origin: @transformOrigin;
+}
+
+.transform-style (@theStyle: preserve-3d) {
+    -webkit-transform-style: @theStyle;
+    -moz-transform-style: @theStyle;
+    transform-style: @theStyle;
+}
+
+.perspective (@perspective: 500) {
+    -webkit-perspective: @perspective;
+    perspective: @perspective;
+}
