@@ -23,19 +23,89 @@ It could be as simple as
 
 ### Colors
 
-(Coming soon)
+#### `.background-gradient-two-color-top`
+
+Creates a vertical gradient from top to bottom.
+
+Accepts: `@top` (defaulting to `#fff`) and `@bottom` (defaulting to `#000`) for gradient colors and optionally `@fallback` for browsers that do not support gradients. When not provided with `@fallback`, `@top` is used
+
+#### `.background-gradient-two-color-left`
+
+Creates a horizontal gradient from left to right.
+
+Accepts: `@left` (defaulting to `#fff`) and `@right` (defaulting to `#000`) for gradient colors and optionally `@fallback` for browsers that do not support gradients. When not provided with `@fallback`, `@left` is used
+
+#### `.opacity`
+
+Makes an element transparent (as opposed to the name).
+
+Accepts: `@alpha` (defaulting to `1`)
 
 ### Shape
 
-(Coming soon)
+#### `.box-sizing`
+
+Sets the box-sizing of an element.
+
+Accepts: `@sizing` (defaulting to `border-box`)
+
+#### `.round-borders`
+
+Makes the corners of an element rounded.
+
+Accepts: `@radius` (defaulting to `50%`)
 
 ### Transforms
 
-(Coming soon)
+#### `.transform`
+
+Sets a transform to an element.
+
+Accepts: `@transform` (defaulting to `rotate(0deg)`)
+
+#### `.transform-origin`
+
+Sets the transform origin of an element.
+
+Accepts: `@origin` (defaulting to `50% 50%`)
+
+#### `.transform-style`
+
+Sets the transform style of an element.
+
+Accepts: `@style` (defaulting to `preserve-3d`)
+
+#### `.perspective`
+
+Sets the transform perspective.
+
+Accepts: `@perspective` (defaulting to `500`)
 
 ### Misc
 
-(Coming soon)
+#### `.multiple-columns`
+
+Makes an element host multiple columns.
+
+Accepts: `@count` (defaulting to `2`)
+
+#### `.transition`
+
+Sets transition to properties of an element.
+
+Accepts: `@seconds` (defaulting to `1s`)
+
+#### `.animation`
+
+Sets animation to an element.
+
+Accepts: `@props`
+
+#### `.filter`
+
+Sets a filter to an element.
+
+Accepts: `@prop` (defaulting to `none`)
 
 ## To-do
 
