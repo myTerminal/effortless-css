@@ -1,10 +1,10 @@
-.multiple-columns (@count: 2) {
+.multiple-columns(@count: 2) {
     -webkit-column-count: @count;
     -moz-column-count: @count;
     column-count: @count;
 }
 
-.transition (@seconds: 1s) {
+.transition(@seconds: 1s) {
     -moz-transition: @seconds;
     -webkit-transition: @seconds;
     -o-transition: @seconds;
@@ -16,7 +16,7 @@
     animation: @props;
 }
 
-.filter (@prop: none) {
+.filter(@prop: none) {
     -webkit-filter: @prop;
     -moz-filter: @prop;
     -ms-filter: @prop;
