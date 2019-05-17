@@ -13,7 +13,7 @@ Install *effortless-css* from NPM
 
     npm install effortless-css --save-dev
 
-Currently there's only one way to use *effortless-css*: reference the provided *Less* file into a stylesheet.
+Currently, there's only one way to use *effortless-css*: reference the provided *Less* file into a stylesheet.
 
 It could be as simple as
 
@@ -93,7 +93,9 @@ Accepts: `@count` (defaulting to `2`)
 
 Sets transition to properties of an element.
 
-Accepts: Duration, a property or any number of properties
+Accepts: Duration, property or any number of properties
+
+*Note*: If passing multiple arguments, end the last one with a `;` so that the generated CSS is as expected. Otherwise, all the arguments in the output will be separated by a space instead of a comma.
 
 #### `.animation`
 
