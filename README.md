@@ -93,7 +93,7 @@ Accepts: `@count` (defaulting to `2`)
 
 Sets transition to properties of an element.
 
-Accepts: `@seconds` (defaulting to `1s`)
+Accepts: Duration, a property or any number of properties
 
 #### `.animation`
 
