@@ -1,6 +1,6 @@
 {
   "name": "effortless-css",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "A collection of frequently used {Less} CSS mixins",
   "main": "less/all.less",
   "repository": {
